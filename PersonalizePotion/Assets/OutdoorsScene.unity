@@ -2323,7 +2323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 891fdc71011e02b458d0dbcc2ea0be6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaxWobble: 0.03
+  MaxWobble: 0.005
   WobbleSpeed: 1
   Recovery: 1
 --- !u!4 &774539303 stripped

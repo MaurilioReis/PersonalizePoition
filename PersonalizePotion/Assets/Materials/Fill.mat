@@ -28,6 +28,8 @@ Material:
     type: 3}
   m_ValidKeywords:
   - _ALPHATEST_ON
+  - _CONSERVATIVE_DEPTH_OFFSET
+  - _DEPTHOFFSET_ON
   m_InvalidKeywords:
   - _DISABLE_SSR_TRANSPARENT
   - _DOUBLESIDED_ON
@@ -64,7 +66,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ActiveRays: 1
+    - _ActiveBubbles: 0
+    - _ActiveRays: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaCutoffEnable: 1
     - _AlphaDstBlend: 0
@@ -73,12 +76,14 @@ Material:
     - _AlphaToMaskInspectorValue: 0
     - _BlendMode: 4
     - _Boolean: 0
-    - _BubbleFresnelPower: 1.5
+    - _BubbleMask: 1
+    - _BubblesInFill: 1
+    - _BubblesInVoid: 0
     - _BubblesOffset: 5
-    - _ConservativeDepthOffsetEnable: 0
+    - _ConservativeDepthOffsetEnable: 1
     - _CullMode: 0
     - _CullModeForward: 0
-    - _DepthOffsetEnable: 0
+    - _DepthOffsetEnable: 1
     - _DoubleSidedEnable: 1
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 2
@@ -87,16 +92,18 @@ Material:
     - _EnableFogOnTransparent: 1
     - _Fill: 0.5
     - _FresnelPower: 3
-    - _IntensityBubblesVPos: 0.05
+    - _IntensityBubblesVPos: 0
+    - _InvertBubbleMask: 0
     - _MaxFill: 1.3
     - _MinFill: -0.86
     - _OpaqueCullMode: 2
     - _RayFrequency: 0
-    - _RaysInNull: 1
+    - _RaysInFill: 0
+    - _RaysInVoid: 0
     - _RenderQueueType: 1
     - _ShakeBubbles: 5
     - _SpeedBubbles: 0.5
-    - _SpeedLighting: 10
+    - _SpeedLighting: 5
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 0
@@ -109,7 +116,7 @@ Material:
     - _StencilWriteMaskGBuffer: 14
     - _StencilWriteMaskMV: 40
     - _SurfaceType: 0
-    - _TillingRays: 10
+    - _TillingRays: 7.24
     - _TransparentBackfaceEnable: 1
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 1
@@ -117,7 +124,7 @@ Material:
     - _TransparentSortPriority: 0
     - _TransparentWritingMotionVec: 1
     - _TransparentZWrite: 1
-    - _UseShadowThreshold: 0
+    - _UseShadowThreshold: 1
     - _WobbleX: 0
     - _WobbleZ: 0
     - _ZTestDepthEqualForOpaque: 3
@@ -125,12 +132,12 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _BubbleColor: {r: 2, g: 2, b: 2, a: 1}
-    - _ColorRays: {r: 42.72251, g: 42.72251, b: 42.72251, a: 1}
-    - _DirLighting: {r: 0.5, g: 0.1, b: 0, a: 0}
+    - _BubbleColor: {r: 4, g: 4, b: 4, a: 1}
+    - _ColorRays: {r: 0.4509804, g: 0.4509804, b: 0.4509804, a: 1}
+    - _DirLighting: {r: 0, g: -0.13, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FresnelColor: {r: 4.180526, g: 4.231946, b: 4.17206, a: 1}
-    - _LiquidColor: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 1}
+    - _FresnelColor: {r: 10.070724, g: 0, b: 0, a: 1}
+    - _LiquidColor: {r: 1, g: 0, b: 0, a: 1}
     - _SurfaceColor: {r: 2.659142, g: 2.670684, b: 2.658087, a: 1}
   m_BuildTextureStacks: []

@@ -79,7 +79,9 @@ Material:
     - _BubbleMask: 1
     - _BubblesInFill: 1
     - _BubblesInVoid: 0
+    - _BubblesMultiply: 0
     - _BubblesOffset: 5
+    - _BubblesOffset2: 15
     - _ConservativeDepthOffsetEnable: 1
     - _CullMode: 0
     - _CullModeForward: 0
@@ -139,5 +141,5 @@ Material:
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
     - _FresnelColor: {r: 10.070724, g: 0, b: 0, a: 1}
     - _LiquidColor: {r: 1, g: 0, b: 0, a: 1}
-    - _SurfaceColor: {r: 2.659142, g: 2.670684, b: 2.658087, a: 1}
+    - _SurfaceColor: {r: 19.698313, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

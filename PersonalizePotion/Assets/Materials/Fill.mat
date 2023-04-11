@@ -66,7 +66,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _ActiveBubbles: 0
+    - _ActiveBubbles: 1
     - _ActiveRays: 0
     - _AddPrecomputedVelocity: 0
     - _AlphaCutoffEnable: 1
@@ -75,13 +75,11 @@ Material:
     - _AlphaToMask: 0
     - _AlphaToMaskInspectorValue: 0
     - _BlendMode: 4
-    - _Boolean: 0
     - _BubbleMask: 1
-    - _BubblesInFill: 1
+    - _BubblesInFill: 0
     - _BubblesInVoid: 0
-    - _BubblesMultiply: 0
-    - _BubblesOffset: 5
-    - _BubblesOffset2: 15
+    - _Bubbles_1_Scale: 7
+    - _Bubbles_2_Scale: 14
     - _ConservativeDepthOffsetEnable: 1
     - _CullMode: 0
     - _CullModeForward: 0
@@ -135,11 +133,11 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BubbleColor: {r: 4, g: 4, b: 4, a: 1}
-    - _ColorRays: {r: 0.4509804, g: 0.4509804, b: 0.4509804, a: 1}
+    - _ColorRays: {r: 1, g: 0, b: 0, a: 1}
     - _DirLighting: {r: 0, g: -0.13, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FresnelColor: {r: 10.070724, g: 0, b: 0, a: 1}
-    - _LiquidColor: {r: 1, g: 0, b: 0, a: 1}
-    - _SurfaceColor: {r: 19.698313, g: 0, b: 0, a: 1}
+    - _FresnelColor: {r: 7.543169, g: 7.543169, b: 7.543169, a: 1}
+    - _LiquidColor: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 1}
+    - _SurfaceColor: {r: 2.659142, g: 2.670684, b: 2.658087, a: 1}
   m_BuildTextureStacks: []

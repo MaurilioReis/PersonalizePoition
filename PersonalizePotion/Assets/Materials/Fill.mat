@@ -76,7 +76,7 @@ Material:
     - _AlphaToMaskInspectorValue: 0
     - _BlendMode: 4
     - _BubbleMask: 1
-    - _BubblesInFill: 0
+    - _BubblesInFill: 1
     - _BubblesInVoid: 0
     - _Bubbles_1_Scale: 7
     - _Bubbles_2_Scale: 14
@@ -95,11 +95,11 @@ Material:
     - _IntensityBubblesVPos: 0
     - _InvertBubbleMask: 0
     - _MaxFill: 1.3
-    - _MinFill: -0.86
+    - _MinFill: -0.91
     - _OpaqueCullMode: 2
     - _RayFrequency: 0
     - _RaysInFill: 0
-    - _RaysInVoid: 1
+    - _RaysInVoid: 0
     - _RenderQueueType: 1
     - _ShakeBubbles: 5
     - _SpeedBubbles: 0.5
@@ -132,12 +132,12 @@ Material:
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _BubbleColor: {r: 4, g: 4, b: 4, a: 1}
+    - _BubbleColor: {r: 90.50967, g: 16.469551, b: 0, a: 1}
     - _ColorRays: {r: 25.992073, g: 0, b: 0, a: 1}
     - _DirLighting: {r: 0, g: -0.13, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FresnelColor: {r: 7.543169, g: 7.543169, b: 7.543169, a: 1}
-    - _LiquidColor: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 1}
-    - _SurfaceColor: {r: 2.659142, g: 2.670684, b: 2.658087, a: 1}
+    - _FresnelColor: {r: 19.468573, g: 10.600689, b: 0, a: 1}
+    - _LiquidColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SurfaceColor: {r: 12.996038, g: 4.739732, b: 0, a: 1}
   m_BuildTextureStacks: []

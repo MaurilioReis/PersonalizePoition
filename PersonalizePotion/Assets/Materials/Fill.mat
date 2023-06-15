@@ -52,6 +52,18 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _ParallaxMapping_55dc633695f34ad9b4e434616d87d86f_Heightmap_1:
+        m_Texture: {fileID: 2800000, guid: 3ecaa61612a35004c9c723f00eda4e28, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMapping_ce59e8e74fbb42b388c2b33dfa07b17a_Heightmap_1:
+        m_Texture: {fileID: 2800000, guid: 3ecaa61612a35004c9c723f00eda4e28, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Triplanar_f239713cb00c4133aff9aa7ce5a7774e_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -76,10 +88,10 @@ Material:
     - _AlphaToMaskInspectorValue: 0
     - _BlendMode: 4
     - _BubbleMask: 1
-    - _BubblesInFill: 0
+    - _BubblesInFill: 1
     - _BubblesInVoid: 0
-    - _Bubbles_1_Scale: 7
-    - _Bubbles_2_Scale: 14
+    - _Bubbles_1_Scale: 4.7
+    - _Bubbles_2_Scale: 8.5
     - _ConservativeDepthOffsetEnable: 1
     - _CullMode: 0
     - _CullModeForward: 0
@@ -91,19 +103,24 @@ Material:
     - _EnableBlendModePreserveSpecularLighting: 0
     - _EnableFogOnTransparent: 1
     - _Fill: 0.5
-    - _FresnelPower: 3
+    - _FresnelPower: 2.66
     - _IntensityBubblesVPos: 0
     - _InvertBubbleMask: 0
+    - _InvertRayMask: 0
     - _MaxFill: 1.3
-    - _MinFill: -0.86
+    - _MinFill: -0.96
     - _OpaqueCullMode: 2
+    - _RayCellDensity: 10
     - _RayFrequency: 0
-    - _RaysInFill: 0
+    - _RayMask: 1
+    - _Rays: 1
+    - _RaysInFill: 1
     - _RaysInVoid: 0
     - _RenderQueueType: 1
     - _ShakeBubbles: 5
     - _SpeedBubbles: 0.5
     - _SpeedLighting: 5
+    - _SpeedRays: 0.2
     - _SrcBlend: 1
     - _StencilRef: 0
     - _StencilRefDepth: 0
@@ -114,9 +131,9 @@ Material:
     - _StencilWriteMaskDepth: 8
     - _StencilWriteMaskDistortionVec: 4
     - _StencilWriteMaskGBuffer: 14
-    - _StencilWriteMaskMV: 40
+    - _StencilWriteMaskMV: 42
     - _SurfaceType: 0
-    - _TillingRays: 7.24
+    - _TillingRays: 2.6
     - _TransparentBackfaceEnable: 1
     - _TransparentCullMode: 2
     - _TransparentDepthPostpassEnable: 1
@@ -125,19 +142,20 @@ Material:
     - _TransparentWritingMotionVec: 1
     - _TransparentZWrite: 1
     - _UseShadowThreshold: 1
-    - _WobbleX: 0
-    - _WobbleZ: 0
+    - _WobbleX: -0.016885702
+    - _WobbleZ: -0.00000024014668
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 3
     - _ZTestTransparent: 4
     - _ZWrite: 1
     m_Colors:
-    - _BubbleColor: {r: 4, g: 4, b: 4, a: 1}
-    - _ColorRays: {r: 1, g: 0, b: 0, a: 1}
+    - _BubbleColor: {r: 25.649479, g: 8.351393, b: 4.718537, a: 1}
+    - _ColorRays: {r: 1.5157166, g: 1.5157166, b: 1.5157166, a: 1}
     - _DirLighting: {r: 0, g: -0.13, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
-    - _FresnelColor: {r: 7.543169, g: 7.543169, b: 7.543169, a: 1}
-    - _LiquidColor: {r: 0.4528302, g: 0.4528302, b: 0.4528302, a: 1}
-    - _SurfaceColor: {r: 2.659142, g: 2.670684, b: 2.658087, a: 1}
+    - _FresnelColor: {r: 1.1273137, g: 0, b: 19.57433, a: 1}
+    - _LiquidColor: {r: 0, g: 0.3584906, b: 0.23055863, a: 1}
+    - _RaysColor: {r: 0, g: 19.468573, b: 1.5289454, a: 0}
+    - _SurfaceColor: {r: 0.60523677, g: 0.26899412, b: 5.0436397, a: 1}
   m_BuildTextureStacks: []
